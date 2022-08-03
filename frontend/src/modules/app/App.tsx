@@ -7,6 +7,7 @@ export function App() {
       <Switch>
         <Route path="/not-found" component={NotFoundPage} />
         <Redirect exact from="/**" to="/not-found" />
+        <Redirect exact from="/**" to="/not-found-b1" />
       </Switch>
   );
 }
