@@ -11,6 +11,7 @@ export function App() {
         <Redirect exact from="/**" to="/not-found-b1" />
         <Redirect exact from="/**" to="/not-found-code-b2" />
         <Redirect exact from="/**" to="/not-found-code-b1" />
+        <Redirect exact from="/**" to="/not-found-code-new-code-b2" />
       </Switch>
   );
 }
