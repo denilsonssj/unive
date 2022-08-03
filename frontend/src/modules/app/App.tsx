@@ -9,6 +9,7 @@ export function App() {
         <Redirect exact from="/**" to="/not-found" />
         <Redirect exact from="/**" to="/not-found-b2" />
         <Redirect exact from="/**" to="/not-found-b1" />
+        <Redirect exact from="/**" to="/not-found-code-b2" />
       </Switch>
   );
 }
